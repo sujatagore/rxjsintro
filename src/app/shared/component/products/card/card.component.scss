@@ -1,0 +1,27 @@
+
+.title{
+    height: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.content{
+    text-align: justify;
+    padding: 10px;
+    overflow: auto;
+}
+
+.card{
+    height: 200px;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 15px;
+}
